@@ -17,4 +17,4 @@ class Carro:
     
     @modelo.setter
     def modelo(self, modelo):
-        self.modelo = modelo
+        self.__modelo = modelo
