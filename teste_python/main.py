@@ -1,8 +1,4 @@
-
-
 from control.controlador_sistema import ControladorSistema
-
-
 
 
 
