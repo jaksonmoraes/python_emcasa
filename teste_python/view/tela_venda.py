@@ -1,3 +1,4 @@
+
 class TelaVenda:
     def tela_opcoes(self):
         print("----- TELA VENDA -----")
