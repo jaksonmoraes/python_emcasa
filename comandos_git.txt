@@ -1,0 +1,19 @@
+Site contendo infos: https://www.atlassian.com/br/git/tutorials/syncing/git-pull
+
+
+git pull: baixa o conteúdo do repositório remoto especificado
+
+git add: adiciona arquivos ao repositório
+
+git commit -m: adicionar um comentario informando as modificações feitas em determinados arquivos
+
+git branch: mostra a branch em que você se encontra
+
+git branch + nome da branch: muda de uma branch (ramificação) para outra caso ja esteja em uma branch existente, caso contrário será criado localmente uma nova e posteriomente ela deve ser enviada ao repositório
+em que se encontra o projeto e o main
+
+git branch -M + main: Com M maiúsculo, para alterar o nome da branch caso a sua branch master não esteja com o nome padrão MAIN. Também é possível alterar o nome de outras branches com este comando.
+
+git fetch: 
+
+git push:
