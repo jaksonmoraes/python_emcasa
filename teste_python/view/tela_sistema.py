@@ -10,4 +10,3 @@ class TelaSistema:
         
         opcao = int(input("Escolha a opção:"))
         return opcao
-        
