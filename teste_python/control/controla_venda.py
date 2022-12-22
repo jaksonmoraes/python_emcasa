@@ -7,7 +7,7 @@ from view.tela_venda import TelaVenda
 
 
 class ControlaVenda:
-    def __init__(self):
+    def __init__(self, controlador_sistema):
         self.__vendas = []
         self.__tela_pessoa = TelaPessoa()
         self.__tela_carro = TelaCarro()
