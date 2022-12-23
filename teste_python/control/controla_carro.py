@@ -8,7 +8,7 @@ class ControlaCarro:
         self.__tela_carro = TelaCarro()
         self.__controlador_sistema = controlador_sistema
     
-    def pega_carro_por_placa(self, placa:int):
+    def pega_carro_por_placa(self, placa: int):
         for carro in self.__carros:
             if carro.placa == placa:
                 return carro
@@ -52,7 +52,7 @@ class ControlaCarro:
         self.__controlador_sistema.abre_tela()
     
     def abre_tela(self):
-        lista_opcoes = {1:self.incluir_carro, 2:self.alterar_carro, 3:self.lista_carros, 4:self.excluir_carro, 0:self.retornar}
+        lista_opcoes = {1: self.incluir_carro, 2: self.alterar_carro, 3: self.lista_carros, 4: self.excluir_carro, 0: self.retornar}
 
         continua = True
         while continua:

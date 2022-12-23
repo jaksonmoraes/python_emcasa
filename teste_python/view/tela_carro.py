@@ -1,7 +1,7 @@
 
 class TelaCarro:
     def tela_opcoes(self):
-        print("----- CARRO -----")
+        print("----- TELA CARRO -----")
         print("Qual sua opcao")
         print("1 - Incluir carro")
         print("2 - Alterar carro")
@@ -13,7 +13,7 @@ class TelaCarro:
         return opcao
     
     def pega_dados_carro(self):
-        print("------ Dados do veiculo ------")
+        print("------ Dados do veiculo ------ metodo tela carro")
         modelo = input("Modelo: ")
         placa = input("PLACA: ")
     

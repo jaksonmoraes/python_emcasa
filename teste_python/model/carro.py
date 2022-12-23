@@ -6,14 +6,14 @@ class Carro:
     @property
     def placa(self):
         return self.__placa
-    
-    @property
-    def modelo(self):
-        return  self.__modelo
-    
+
     @placa.setter
     def placa(self, placa):
         self.__placa = placa
+    
+    @property
+    def modelo(self):
+        return self.__modelo
     
     @modelo.setter
     def modelo(self, modelo):
