@@ -1,3 +1,4 @@
+
 class TelaCarro:
     def tela_opcoes(self):
         print("----- CARRO -----")
@@ -20,7 +21,7 @@ class TelaCarro:
     
     def mostra_carro(self, dados_carro):
         print("Modelo do carro: ", dados_carro["modelo"])
-        print("Placa do veiculo: ", dados_carro["placa"])
+        print("PLACA: ", dados_carro["placa"])
         print("\n")
     
     def seleciona_carro(self):

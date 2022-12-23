@@ -9,13 +9,16 @@ from view.tela_venda import TelaVenda
 class ControlaVenda:
     def __init__(self, controlador_sistema):
         self.__vendas = []
+        self.__carros = []
         self.__tela_pessoa = TelaPessoa()
         self.__tela_carro = TelaCarro()
+        self.__tela_venda = TelaVenda()
         self.__controlador_sistema = controlador_sistema
-        self.__mostra_carros = mostra_carros
+        self.__controla_carro = ControlaCarro(self)
     
     def lista_carros_disponiveis(self):
-        self.__mostra_carros.lista_carros()
+        for carro in self.__carros:
+            self.__tela_carro.mostra_carro(dados_carro)
     
     def retornar(self):
         self.__controlador_sistema.abre_tela()
@@ -25,4 +28,4 @@ class ControlaVenda:
 
         continua = True
         while continua:
-            lista_opcoes[self.tela_venda.tela_opcoes()]()
+            lista_opcoes[self.__tela_venda.tela_opcoes()]()

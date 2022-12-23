@@ -42,7 +42,7 @@ class ControlaCarro:
         placa_carro = self.__tela_carro.seleciona_carro()
         carro = self.pega_carro_por_placa(placa_carro)
 
-        if(carro is not None):
+        if(carro is not None): #and carro in self.__carros:
             self.__carros.remove(carro)
             self.lista_carros()
         else:

@@ -1,6 +1,7 @@
 from view.tela_pessoa import TelaPessoa
 from model.pessoa import Pessoa
 
+
 class ControlaPessoa:
     def __init__(self, controlador_sistema):
         self.__pessoas = []

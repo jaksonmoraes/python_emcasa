@@ -9,3 +9,7 @@ class TelaVenda:
         opcao = int(input("Qual sua opção na tela de vendas: "))
         return opcao
     
+    def mostra_carros(self, dados_carro):
+        print("Nome da pessoa: ", dados_pessoa["nome"])
+        print("CPF: ", dados_pessoa["cpf"])
+        print("\n")
