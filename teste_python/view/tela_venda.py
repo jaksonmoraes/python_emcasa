@@ -10,6 +10,6 @@ class TelaVenda:
         return opcao
     
     def mostra_carros(self, dados_carro):
-        print("Nome da pessoa: ", dados_pessoa["nome"])
-        print("CPF: ", dados_pessoa["cpf"])
+        print("Modelo do carro: ", dados_carro["modelo"])
+        print("PLACA: ", dados_carro["placa"])
         print("\n")

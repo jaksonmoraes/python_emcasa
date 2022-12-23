@@ -1,9 +1,9 @@
-from view.tela_pessoa import TelaPessoa
-from model.pessoa import Pessoa
-from view.tela_carro import TelaCarro
-from model.carro import Carro
-from control.controla_carro import ControlaCarro
-from view.tela_venda import TelaVenda
+from teste_python.view.tela_pessoa import TelaPessoa
+from teste_python.model.pessoa import Pessoa
+from teste_python.view.tela_carro import TelaCarro
+from teste_python.model.carro import Carro
+from teste_python.control.controla_carro import ControlaCarro
+from teste_python.view.tela_venda import TelaVenda
 
 
 class ControlaVenda:
@@ -17,8 +17,9 @@ class ControlaVenda:
         self.__controla_carro = ControlaCarro(self)
     
     def lista_carros_disponiveis(self):
+        print("\nExistem {} carros no sistema".format(len(self.__carros)))
         for carro in self.__carros:
-            self.__tela_carro.mostra_carro(dados_carro)
+            self.__tela_carro.mostra_carro({"modelo": carro.modelo, "placa": carro.placa})
     
     def retornar(self):
         self.__controlador_sistema.abre_tela()
