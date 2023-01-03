@@ -1,5 +1,5 @@
-from teste_python.model1.carro import Carro
-from teste_python.view1.tela_carro import TelaCarro
+from teste_python.model.carro import Carro
+from teste_python.view.tela_carro import TelaCarro
 
 
 class ControlaCarro:

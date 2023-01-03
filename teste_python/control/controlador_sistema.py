@@ -1,7 +1,7 @@
-from teste_python.view1.tela_sistema import TelaSistema
-from teste_python.control1.controla_pessoa import ControlaPessoa
-from teste_python.control1.controla_carro import ControlaCarro
-from teste_python.control1.controla_venda import ControlaVenda
+from teste_python.view.tela_sistema import TelaSistema
+from teste_python.control.controla_pessoa import ControlaPessoa
+from teste_python.control.controla_carro import ControlaCarro
+from teste_python.control.controla_venda import ControlaVenda
 
 
 class ControladorSistema:

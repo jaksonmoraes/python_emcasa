@@ -1,5 +1,5 @@
-from teste_python.view1.tela_pessoa import TelaPessoa
-from teste_python.model1.pessoa import Pessoa
+from teste_python.view.tela_pessoa import TelaPessoa
+from teste_python.model.pessoa import Pessoa
 
 
 class ControlaPessoa:
