@@ -1,9 +1,7 @@
-from teste_python.view.tela_pessoa import TelaPessoa
-from teste_python.model.pessoa import Pessoa
-from teste_python.view.tela_carro import TelaCarro
-from teste_python.model.carro import Carro
-from teste_python.control.controla_carro import ControlaCarro
-from teste_python.view.tela_venda import TelaVenda
+from teste_python.view1.tela_pessoa import TelaPessoa
+from teste_python.view1.tela_carro import TelaCarro
+from teste_python.control1.controla_carro import ControlaCarro
+from teste_python.view1.tela_venda import TelaVenda
 
 
 class ControlaVenda:
